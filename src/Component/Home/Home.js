@@ -36,7 +36,7 @@ const Home = () => {
             <div class="content">
                 <span>upto 50% off</span>
                 <h3>smartphones</h3>
-                <a href="#" class="btn">shop now</a>
+                <a href="shop.html" class="btn">shop now</a>
             </div>
     </div>
     <div class="carousel-item slide" data-bs-interval="2000">
@@ -46,7 +46,7 @@ const Home = () => {
             <div class="content">
                 <span>upto 50% off</span>
                 <h3>smartwatch</h3>
-                <a href="#" class="btn">shop now</a>
+                <a href="shop.html" class="btn">shop now</a>
             </div>
     </div>
     <div class="carousel-item slide">
@@ -56,7 +56,7 @@ const Home = () => {
             <div class="content">
                 <span>upto 50% off</span>
                 <h3>headphones</h3>
-                <a href="#" class="btn">shop now</a>
+                <a href="shop.html" class="btn">shop now</a>
             </div>
     </div>
   </div>
