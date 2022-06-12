@@ -1,11 +1,11 @@
 import React from 'react';
-import './ReviewItem.css'; 
 
 const ReviewItem = (props) => {
-    const {product, handleRemoveProduct} = props;
+    const {product,handleRemoveProduct}=props;
     const {name, img, price, shipping, quantity} = product;
     return (
-        <div className='review-item'>
+        <div>
+             <div className='review-item'>
             <div>
                 <img src={img} alt="" />
             </div>
@@ -20,10 +20,11 @@ const ReviewItem = (props) => {
                 </div>
                 <div className="delete-container">
                     <button onClick={() => handleRemoveProduct(product)} className='delete-button'>
-                  
+                        
                     </button>
                 </div>
             </div>
+        </div>
         </div>
     );
 };
