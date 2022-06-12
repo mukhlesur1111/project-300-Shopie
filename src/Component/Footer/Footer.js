@@ -10,7 +10,7 @@ const footer = () => {
 <div class="links">
     <a href="home.html"> Home </a>
     <a href="shop.html"> Shop </a>
-    <a href="order.html"> Order </a>
+    <a href="orderReview.html"> Order </a>
     <a href="inventory.html"> Inventory </a>
     <a href="contact.html"> Contact </a>
     <a href="login.html"> login </a>

@@ -5,6 +5,9 @@ import Footer from './Component/Footer/Footer';
 import Home from './Component/Home/Home';
 import Shop from './Component/Shop/Shop';
 import Contact from './Component/Contact/Contact';
+import Order from './Component/OrderReview/Order';
+
+
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
           </Route>
           <Route path="/shop.html">
             <Shop></Shop>
+          </Route>
+          <Route path="/order.html">
+            <Order></Order>
           </Route>
           <Route path="/contact.html">
             <Contact></Contact>
