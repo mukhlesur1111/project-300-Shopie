@@ -11,6 +11,10 @@
     text-decoration: underline;
     color: #0984e3;
 }
+.form-div p{
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
 .input-div label{
    font-size: 1.5rem;
 }
