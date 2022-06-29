@@ -1,0 +1,16 @@
+.form-section{
+    margin: 7rem;
+}
+.form-div{
+    padding:  4rem;
+    background-color: aliceblue;
+}
+.form-div h1{
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    text-decoration: underline;
+    color: #0984e3;
+}
+.input-div label{
+   font-size: 1.5rem;
+}

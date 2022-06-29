@@ -6,6 +6,7 @@ import Home from './Component/Home/Home';
 import Shop from './Component/Shop/Shop';
 import Contact from './Component/Contact/Contact';
 import Order from './Component/Order/Order';
+import Login from './Component/Login/Login';
 
 
 
@@ -31,6 +32,9 @@ function App() {
           </Route>
           <Route path="/contact.html">
             <Contact></Contact>
+          </Route>
+          <Route path="/login.html">
+            <Login></Login>
           </Route>
         </Switch>
 
