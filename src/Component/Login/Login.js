@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import initializeAuthentication from '../firebase/firebase.init';
 import { GoogleAuthProvider,getAuth, signInWithPopup,signInWithEmailAndPassword } from "firebase/auth";
 import './Login.css';
+import google from '../../images/google.png';
 
 initializeAuthentication();
 const googleProvider = new GoogleAuthProvider();
@@ -55,12 +56,15 @@ const Login = () => {
                   <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
                  <div class="col-sm-10">
                         <input onChange={handlePasswordChange} type="password" class="form-control" id="inputPassword3" required/>
+                        <div class="text-danger">
+                          {error}
+                        </div>
                  </div>
               </div>
                  <button type="submit" class="btn btn-primary">Login</button>
                  <p>Please create a account? <a href='register.html'>Register</a></p>
 
-                 <button onClick={handleGoogleSignIn}>
+                 <button class="google-box" onClick={handleGoogleSignIn}><img class="google" src={google} width="40px" hight="40px"/>
 Google Sign IN </button>
            </div>
          </form>

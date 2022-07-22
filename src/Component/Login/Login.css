@@ -21,3 +21,16 @@
 input{
     text-transform: lowercase;
 }
+.google-box {
+    margin-top: 1rem;
+    background-color: #4082ED;
+    padding: .8rem 2.5rem;
+    border-radius: .3rem;
+        background-color: #4082ED;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.4rem;
+}
+.google{
+    border: 5px sloid #fff;
+}
