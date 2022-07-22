@@ -17,7 +17,6 @@ const Header = () => {
        <a href="home.html">Home</a>
         <a href="shop.html">Shop</a>
         <a href="order.html">order</a>
-        <a href="inventory.html">Inventory</a>
         <a href="contact.html">Contact</a>
     </nav>
 

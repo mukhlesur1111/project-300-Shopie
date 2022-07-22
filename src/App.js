@@ -10,8 +10,6 @@ import Login from './Component/Login/Login';
 import Register from './Component/Login/Register';
 
 
-
-
 function App() {
   return (
     <div className="App">
